@@ -6,7 +6,6 @@ import { IoSettings, IoSettingsOutline } from "react-icons/io5";
 import { FaUser } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import line from "../assests/Line.png";
 
 const Sidebar = () => {
 	const [activeLink, setActiveLink] = useState<string>("");
@@ -16,7 +15,7 @@ const Sidebar = () => {
 	};
 
 	return (
-		<div className="border-r-2 border-black bg-[#F0F4FA] sticky h-screen top-0 ">
+		<div className="border-r-2 border-black/20 bg-[#F0F4FA] sticky h-screen top-0 ">
 			<div className="w-[50px]">
 				<div>
 					<NavLink to={"/"}>
